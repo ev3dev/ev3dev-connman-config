@@ -1,0 +1,17 @@
+Source: ev3dev-connman-config
+Section: embedded
+Priority: extra
+Maintainer: David Lechner <david@lechnology.com>
+Build-Depends: debhelper (>= 9), config-package-dev (>= 5.0), connman
+Standards-Version: 3.9.5
+Homepage: http://www.ev3dev.org
+Vcs-Git: git://github.com/ev3dev/ev3dev-connman-config.git
+Vcs-Browser: https://github.com/ev3dev/ev3dev-connman-config
+
+Package: ev3dev-connman-config
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, connman
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
+Description: ev3dev-specific configuration files for connman
+ Replaces the default connman configuration with one specifically for ev3dev.

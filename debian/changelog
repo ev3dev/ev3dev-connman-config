@@ -1,0 +1,5 @@
+ev3dev-connman-config (1) testing; urgency=low
+
+  * Initial Release.
+
+ -- David Lechner <david@lechnology.com>  Tue, 13 Jan 2015 22:57:56 -0600
