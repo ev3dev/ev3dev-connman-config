@@ -1,1 +1,1 @@
-/etc/connman/main.conf.ev3dev sed -e 's/# DefaultAutoConnectTechnologies =/DefaultAutoConnectTechnologies = ethernet,gadget,wifi,cellular/' -e 's/# PersistentTetheringMode = false/PersistentTetheringMode = true/'
+/etc/connman/main.conf.ev3dev sed -e 's/# \(InputRequestTimeout =\) 120/\1 600/' -e 's/# \(DefaultAutoConnectTechnologies =\)/\1 ethernet,gadget,wifi,cellular/' -e 's/# \(PersistentTetheringMode =\) false/\1 true/'
