@@ -1,3 +1,10 @@
+ev3dev-connman-config (1.2.0) stable; urgency=medium
+
+  * target ev3dev-stretch
+  * disable background scanning
+
+ -- David Lechner <david@lechnology.com>  Fri, 20 Jul 2018 17:04:27 -0500
+
 ev3dev-connman-config (1.1.0) stable; urgency=medium
 
   * Set input timeout to 5 minutes
