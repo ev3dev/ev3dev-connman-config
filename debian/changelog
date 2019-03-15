@@ -1,3 +1,10 @@
+ev3dev-connman-config (1.3.0) testing; urgency=medium
+
+  * target buster
+  * Add connman_resolvconf.conf
+
+ -- David Lechner <david@lechnology.com>  Fri, 15 Mar 2019 16:56:13 -0500
+
 ev3dev-connman-config (1.2.0) stable; urgency=medium
 
   * target ev3dev-stretch
