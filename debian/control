@@ -1,11 +1,11 @@
 Source: ev3dev-connman-config
 Section: embedded
-Priority: extra
+Priority: optional
 Maintainer: David Lechner <david@lechnology.com>
 Build-Depends: debhelper (>= 10), config-package-dev (>= 5.0), connman
-Standards-Version: 3.9.8
+Standards-Version: 4.3.0
 Homepage: http://www.ev3dev.org
-Vcs-Git: git://github.com/ev3dev/ev3dev-connman-config.git
+Vcs-Git: https://github.com/ev3dev/ev3dev-connman-config.git
 Vcs-Browser: https://github.com/ev3dev/ev3dev-connman-config
 
 Package: ev3dev-connman-config
